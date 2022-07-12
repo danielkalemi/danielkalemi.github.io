@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Kalemi - Personal Website</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/x-icon" href="favicon-16x16.png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  
+</head>
+
+<body id="top" class="dark_theme" class="cursors">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#home">DK<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary resume">Resume</a>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Dark/Light mode" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li><a href="#about" class="navbar-link">About</a></li>
+          <li><a href="#skills" class="navbar-link">Skills</a></li>
+          <li><a href="#portfolio" class="navbar-link">Portfolio</a></li>
+          <li><a href="#post" class="navbar-link">News</a></li>
+          <li><a href="#contact" class="navbar-link">Contact</a></li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <!-- <section class="hero" id="home">
+
+        <figure class="hero-banner">
+
+          <picture>
+            <source srcset="./assets/images/aa.png" media="(min-width: 768px)">
+            <img src="./assets/images/aa.png" alt="my memoji" class="w-100">
+          </picture>
+
+        </figure>
+
+        <div class="hero-content">
+          <h2 class="h2 hero-title">Daniel Kalemi</h2>
+        </div> -->
+      <section class="hero" id="home">
+
+        <!-- <div class="w-100"> -->
+          <div class="wrapper-img">
+            <div class="box"></div>
+            <div>
+              <img class="image" src="./assets/images/aprofile.png"/>
+            </div>
+          </div>
+        
+          <div class="circle-shape"></div>
+          <div class="circle-shape-2"><img class="image" src="./assets/images/aa.png"/></div>
+          <div class="circle-shape-3"></div>
+
+          <div class="blocks">
+            <div class="block-1 block">D</div>
+            <div class="block-2 block">A</div>
+            <div class="block-3 block">N</div>
+            <div class="block-4 block">I</div>
+            <div class="block-5 block">E</div>
+            <div class="block-6 block">L</div>
+          </div> 
+        <!-- </div> -->
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/daniel-kalemi/" target="_blank" rel="noopener noreferrer" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/danielkalemi" target="_blank" rel="noopener noreferrer" class="hero-social-link">
+              <ion-icon name="logo-github"></ion-icon>
+              <div class="tooltip">Github</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/daniel_kalemi" target="_blank" rel="noopener noreferrer" class="hero-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+              <div class="tooltip">Twitter</div>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/daniel_kalemi/" target="_blank" rel="noopener noreferrer" class="hero-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+              <div class="tooltip">Instagram</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#about" class="scroll-down">Scroll</a>
+
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner.png" alt="A laptop memoji" class="w-100">
+
+          <div class="abt">
+            <span class="type">
+              <span>
+                <span>Software Engineer</span>
+                <span>Data Scientist / Engineer</span>
+                <span>Full-Stack Web Developer</span>
+              </span>
+            </span>
+          </div>
+
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
+
+          <p class="section-text">
+            Hello and welcome to my digital home! My name is Daniel and I am a graduate student at UC Berkeley 🐻.
+            I'm currently pursuing a Master's in Development Engineering, with a concentration in Artificial 
+            Intelligence and Data Analytics for Social Impact.
+          </p>
+          <p class="section-text">
+            Tech is practical and fast. In my freshman year, I used to have headaches calculating how to split
+            bills between my friends at dinners. With just a few clicks and a couple dozen lines of code, my first
+            app was born and my problem was solved! I love making an impact and, in the world of tech, there is so
+            much potential to do so. 
+          </p>  
+          <p class="section-text">
+            Fast-forward to today, I enjoy exploring new problem spaces through the power of data and
+            product design, coming up with creative human-centered solutions that enhance the experience of the user.
+            In my spare time, I love playing volleyball, hiking, and developing cross-platform apps! 
+          </p> 
+
+          <!-- <div class="btn-group">
+            <button class="btn btn-secondary">Hire me</button>
+            <button class="btn btn-primary">Download cv</button>
+          </div> -->
+
+        </div>
+
+      </section>
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+          <h2 class="h3 section-title">I'm a Software Engineer, Data Scientist and Full-Stack Web Developer.</h2>
+
+          <p class="section-text">
+            As an aspiring data scientist and software engineer, I have dedicated my time and technical skills on a
+            number of impactful projects, that aim to improve access to the diagnosis of Diabetic Retinopathy
+            (health-tech) or build disaster response detection systems, through Computer Vision applications, as
+            well as other exciting initiatives on Universal Internet Access and Interplanetary Networking
+            infrastructure.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+          <!-- <div class="toggle-radio">
+            <input type="radio" name="default" id="default_Option1" value="Programming" checked data-toggle-btn>
+            <label for="default_Option1">Programming</label>
+            <input type="radio" name="default" id="default_Option2" value="ML" data-toggle-btn>
+            <label for="default_Option2">ML</label>
+            <input type="radio" name="default" id="default_Option3" value="Web" data-toggle-btn>
+            <label for="default_Option3">Web</label>
+            <input type="radio" name="default" id="default_Option4" value="Design" data-toggle-btn>
+            <label for="default_Option4">Design</label>
+          </div> -->
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Python ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/python.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">No/SQL ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sql.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">R ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/r.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">PHP ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/php.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Pandas ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/pandas.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+           
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Numpy ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/numpy.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Scikit Learn ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/scikit.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Matplotlib ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/matplotlib.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Seaborn ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/seaborn.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Java ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/java.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">C++ ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/c++.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">C# ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/c-sharp.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5 ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3 ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/firebase.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">MongoDB-Express-React-Node.js ★★★☆☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/mern.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Flutter ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/flutter.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Jupyter Notebook ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/jupyter.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Keras + Tensorflow ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/kerastensor.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Pytorch ★★★☆☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/pytorch.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Excel ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/excel.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Tableau ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/tableau.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">pgAdmin ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/pgadmin.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Figma ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/figma.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Microsoft Azure ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/azure.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Amazon Web Services ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/aws.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Google Cloud Platform ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/gcp.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Flask ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/flask.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Streamlit ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/streamlit.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ASP.Net ★★★☆☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/aspdotnet.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Rest APIs ★★★★☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/rest-api.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Android Studio ★★★☆☆</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/android.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">XCode ★★★★★</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/xcode.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="project" id="portfolio">
+
+        <ul class="project-list">
+
+          <li>
+            <div class="project-content section-content">
+
+              <p class="section-subtitle">My Works</p>
+
+              <h2 class="h3 section-title">A selection of projects that I have worked on.</h2>
+
+              <p class="section-text">
+                 I do most of my work under my graduate coursework or build projects for fun in my free time.
+                 Here are some of my most recent projects.
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a href="https://github.com/danielkalemi/data-analysis-and-ml-in-python" target="_blank" rel="noopener noreferrer" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-1.png" class="w-100" alt="A macintosh on a yellow background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">data-analysis-and-ml-in-python</h3>
+
+                <time class="publish-date" datetime="2022-04">Jupyter Notebook</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/danielkalemi/twitter-api-sentiment-analysis" target="_blank" rel="noopener noreferrer" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-2.png" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">twitter-api-sentiment-analysis</h3>
+
+                <time class="publish-date" datetime="2022-04">Jupyter Notebook</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/danielkalemi/pastry-shop-php-website" target="_blank" rel="noopener noreferrer" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-3.png" class="w-100"
+                  alt="A Cassette tape on a mellow apricot background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">pastry-shop-php-website</h3>
+
+                <time class="publish-date" datetime="2022-04">PHP</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/danielkalemi/intro-to-analytics-psets" target="_blank" rel="noopener noreferrer" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-4.png" class="w-100"
+                  alt="Blue digital watch on a dark liver background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">data-analytics-psets</h3>
+
+                <time class="publish-date" datetime="2022-04">Jupyter Notebook</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/danielkalemi/data-analysis-in-R" target="_blank" rel="noopener noreferrer" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-5.png" class="w-100"
+                  alt="On a dark liver background, Airport luggage car carrying a luggage.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">data-analysis-in-R</h3>
+
+                <time class="publish-date" datetime="2022-04">R</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/danielkalemi/data-analysis-in-SQL" target="_blank" rel="noopener noreferrer" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-6.png" class="w-100"
+                  alt="On a yellow background, a digital watch and a glass.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">data-analysis-in-SQL</h3>
+
+                <time class="publish-date" datetime="2022-04">SQL</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/danielkalemi/covid-19-project" target="_blank" rel="noopener noreferrer" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-7.png" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">covid-19-project</h3>
+
+                <time class="publish-date" datetime="2022-04">Python</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <!-- <button class="load-more">Load more work</button> -->
+            <a href="https://github.com/danielkalemi" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Load More</a>
+          </li>
+
+        </ul>
+
+      </section>
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="blog-posts" id="post">
+
+        <ul class="blog-posts-list">  
+                  
+          <li>
+            <div class="project-content section-content">
+
+              <p class="section-subtitle">My Blog</p>
+
+              <h2 class="h3 section-title">Check out some of my broader work featured in the media!</h2>
+
+              <p class="section-text">  
+                My interests lay at the intersection of emerging technologies, product management and the computational
+                social sciences, mainly in human-computer interaction, data ethics, digital equity, dis/misinformation, 
+                algorithmic fairness, UI/UX design, energy and sustainability. 
+              </p>
+
+            </div>
+          </li>
+
+            <li class="blog-post-item">
+              <a href="https://eurodigwiki.org/wiki/A_celebration_of_youth_voices_in_Internet_Governance_–_Pre_07_2022  "
+              target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/eurodig.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Internet Governance</p>
+
+                    <span class="dot"> | </span>
+
+                    <time datetime="2022-02-23">June 7, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Youth Speaker at EuroDIG 2022 - Trieste, Italy</h3>
+
+                  <p class="blog-text">
+                     Session: A celebration of youth voices in Internet Governance. The European Dialogue on Internet
+                     Governance (EuroDIG) is an open multi-stakeholder platform established in 2008, to exchange 
+                     views about the Internet and how it is governed.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.zotero.org/groups/2726293/ipnsig_technical_documentation_working_group_ipnsig_td_wg"
+              target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ipnsig.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Interplanetary Networking</p>
+
+                    <span class="dot"> | </span>
+
+                    <time datetime="2022-02-23">Jan 1, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Joining IPNSIG Technical Documentation Working Group</h3>
+
+                  <p class="blog-text">
+                     The mission of the InterPlanetary Networking Special Interest Group (IPNSIG) is to realize a
+                     functional and scalable system of interplanetary data communications. We will accomplish this
+                     objective by engaging the public’s interest in funding and executing the research and technology
+                     development necessary to make InterPlanetary Networking (IPN) a reality. Our membership is
+                     international and interdisciplinary in scope. We continue to engage in a number of research,
+                     public education, and academic outreach initiatives.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.diplomacy.edu/event/seedig-7-series-faces-of-internet-governance-in-see-intergenerational-dialogue/"
+              target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/seedig.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Internet Governance</p>
+
+                    <span class="dot"> | </span>
+
+                    <time datetime="2022-02-23">Nov 29, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Invited Speaker at SEEDIG 7</h3>
+
+                  <p class="blog-text">
+                   [SEEDIG 7 Series] Faces of Internet Governance in the broader South Eastern Europe (SEE+):
+                   Intergenerational Dialogue.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://hopin.com/events/lkdf-forum-2021" target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/lkdf.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Future of Work</p>
+
+                    <span class="dot"> | </span>
+
+                    <time datetime="2022-02-23">Sep 22, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Youth Speaker at the LKDF Forum 2021</h3>
+
+                  <p class="blog-text">
+                   Hosted by the United Nations Industrial Development Organization (UNIDO), the Learning and
+                   Knowledge Development Facility Forum 2021 included a number of interesting topic around the 
+                   Future of Work and Education. As a youth representative, I was invited to speak on Session 3: How can 
+                   digitalization help achieve inclusivity in education?
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.itu.int/en/ITU-D/Regional-Presence/Europe/Pages/Events/2021/CCS/Default.aspx"
+              target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/unece.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Tech Policy and ICT Sustainability</p>
+
+                    <span class="dot"> | </span>
+
+                    <time datetime="2022-02-23">Mar 15, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Youth Declaration Speaker at RFSD 2021</h3>
+
+                  <p class="blog-text">
+                    The Regional Forum on Sustainable Development (RFSD 2021) for the United Nations Economic Commission for
+                    Europe (UNECE Region). Invited to speak at the Cross-Cutting Session on Digitalization: 
+                    Digital Transformation in the Wake of COVID-19.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.act.edu/news/act-student-and-team-win-the-2020-mit-policy-hackathon-“internet-policy-challenge”"
+              target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/hackathon.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Hackathon</p>
+
+                    <span class="dot"> | </span>
+
+                    <time datetime="2022-02-23">Oct 23-25, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Winning the “Internet Policy Challenge” at the 2020 MIT Policy Hackathon </h3>
+
+                  <p class="blog-text">
+                     The MIT Policy Hackathon, a student-led event organized by MIT’s Institute for Data, Systems,
+                     and Society (IDSS) and the Technology and Policy Program (TPP), was designed to bring together
+                     people with diverse skillsets and backgrounds, including data scientists, engineers, and policy
+                     specialists, to tackle complex real-world problems posed by government, industry, and nonprofit
+                     partners. Unconstrained by the requirement to travel to MIT, over 150 participants from 22
+                     states and 33 countries took part in the event.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.icann.org/en/announcements/details/icann-announces-nextgenicann69-participants-26-6-2020-en"
+              target="_blank" rel="noopener noreferrer">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/icann.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Internet Governance</p>
+
+                    <span class="dot"> | </span>
+
+                    <time datetime="2022-02-23">June 26, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">ICANN Announces NextGen@ICANN69 Participants</h3>
+
+                  <p class="blog-text">
+                    The Internet Corporation for Assigned Names and Numbers (ICANN) has announced the individuals
+                    selected to participate in the NextGen@ICANN program for ICANN69 from 17-22 October 2020.
+                    The 12 selectees attend universities in the European region, where they study computer science, 
+                    law, and business.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+            <button class="load-more">Blog Site Coming Soon!</button>
+          </li>
+
+        </ul>
+
+      </section>
+
+      
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Looking for a talented hire? Let's connect!</h2>
+
+          <p class="section-text">
+            I'm currently OPEN for new opportunities! If you're looking to add in your team a new Data Scientist,
+            ML Engineer or Software Developer, feel free to reach out and I will be in touch with you as soon
+            as I can!
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                  San Francisco Bay Area, CA
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+                <a href="mailto:kalemi.daniel@gmail.com" class="contact-info">kalemi.daniel@gmail.com</a>
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+                <li>
+                  <a href="https://www.linkedin.com/in/daniel-kalemi/" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://github.com/danielkalemi" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                    <div class="tooltip">Github</div>
+
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://twitter.com/daniel_kalemi" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/daniel_kalemi/" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                    <div class="tooltip">Instagram</div>
+
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+        <img src="./assets/images/alast.png" alt="Memoji logo">
+       </div>
+
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          Daniel Kalemi<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2022 <a href="https://github.com/danielkalemi" target="_blank" rel="noopener noreferrer">danielkalemi</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+  <!-- 
+    - #MOVING LETTERS
+  -->
+  <script>
+    TweenMax.to(".block-1", 2, {
+      x: "-180",
+      y: "-180",
+      scale: "2.4",
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.to(".block-2", 2, {
+      x: "390",
+      y: "-300",
+      scale: "1.0",
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.to(".block-3", 2, {
+      x: "390",
+      y: "-110",
+      scale: "1.2",
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.to(".block-4", 2, {
+      x: "110",
+      y: "340",
+      scale: "1.4",
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.to(".block-5", 2, {
+      x: "-340",
+      y: "330",
+      scale: "0.7",
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.to(".block-6", 2, {
+      x: "-570",
+      y: "120",
+      scale: "1",
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.to(".box", 2.4, {
+      y: "100%",
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.from(".circle-shape", 2.4, {
+      scale: "0",
+      ease: Expo.easeInOut,
+    });
+    TweenMax.from(".circle-shape-2", 2.4, {
+      scale: "0",
+      ease: Expo.easeInOut,
+    });
+    TweenMax.from(".circle-shape-3", 2.4, {
+      scale: "0",
+      ease: Expo.easeInOut,
+    });
+  </script>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
