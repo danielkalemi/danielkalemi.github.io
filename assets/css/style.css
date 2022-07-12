@@ -365,7 +365,7 @@ body.active { overflow: hidden; }
   transform: rotate(-55deg);
   transition: var(--transition-1);
   z-index: 2;
-  cursor: url("aa.png"), auto;
+  cursor: var(--home-cursor);
 }
 
 .nav-toggle-btn.active { transform: rotate(-45deg); }
@@ -463,8 +463,8 @@ main { overflow-x: hidden; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 115px;
-  margin-bottom: var(--section-padding);
+  padding-top: 0px;
+  /* margin-bottom: var(--section-padding); */
 }
 
 :is(.hero-social-list, .scroll-down) { display: none; }
@@ -480,8 +480,10 @@ main { overflow-x: hidden; }
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 580px;
-	height: 580px;
+  width: 100%;
+  height: auto;
+	width: 470px;
+	height: 470px;
 	border: 4px solid hsl(24, 74%, 58%);
 	border-radius: 100%;
   position: center;
@@ -492,8 +494,10 @@ main { overflow-x: hidden; }
 	top: 64%;
 	left: 80%;
 	transform: translate(-50%, -50%);
-	width: 240px;
-	height: 240px;
+  width: 100%;
+  height: auto;
+	width: 150px;
+	height: 150px;
 	background: #a83e0c;
 	border-radius: 100%;
 }
@@ -503,8 +507,10 @@ main { overflow-x: hidden; }
 	top: 30%;
 	left: 20%;
 	transform: translate(-50%, -50%);
-	width: 140px;
-	height: 140px;
+  width: 100%;
+  height: auto;
+	width: 100px;
+	height: 100px;
 	background: #a83e0c;
 	border-radius: 100%;
 	z-index: 2;
@@ -518,9 +524,16 @@ main { overflow-x: hidden; }
   position: center;
 }
 
-.image {
-  max-height: 500px;
+.hero img {
+  height: 100%;
   width: auto;
+  margin-inline: auto;
+}
+
+.image {
+  max-height: 400px;
+  width: 100%;
+  height: auto;
 	object-fit: cover;
 }
 
@@ -1030,7 +1043,6 @@ textarea.input-field {
 
 
 
-
 /*-----------------------------------*\
  * #MEDIA QUERIES
 \*-----------------------------------*/
@@ -1084,15 +1096,6 @@ textarea.input-field {
   .container { max-width: 720px; }
 
   .section-title { max-width: 430px; }
-
-
-
-  /**
-   * STATS
-   */
-
-  .stats-list { grid-template-columns: 1fr 1fr; }
-
 
 
   /**
@@ -1224,7 +1227,7 @@ textarea.input-field {
 
 
   /**
-   * HERO
+   * HOME
    */
 
   .hero {
@@ -1233,27 +1236,100 @@ textarea.input-field {
     height: 100vh;
   }
 
-  .hero-banner {
-    max-width: unset;
-    height: 100%;
-    margin-bottom: 0;
+  .blocks {
+    display: flex;
+    font-size: 140px;
+    color: #8d785b;
   }
-
+  
+  .circle-shape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 580px;
+    height: 580px;
+    border: 4px solid hsl(24, 74%, 58%);
+    border-radius: 100%;
+    position: center;
+  }
+  
+  .circle-shape-2 {
+    position: absolute;
+    top: 64%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 240px;
+    height: 240px;
+    background: #a83e0c;
+    border-radius: 100%;
+  }
+  
+  .circle-shape-3 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 140px;
+    background: #a83e0c;
+    border-radius: 100%;
+    z-index: 2;
+  }
+  
+  .wrapper-img {
+    overflow: hidden;
+    position: absolute;
+    max-height: 650px;
+    width: auto;
+    position: center;
+  }
+  
   .hero img {
     height: 100%;
     width: auto;
     margin-inline: auto;
   }
+  
+  .image {
+    max-height: 500px;
+    width: auto;
+    object-fit: cover;
+  }
+  
+  .box {
+    background: var(--bg-primary);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
 
-  .hero-content {
+  /* .hero-banner {
+    max-width: unset;
+    height: 100%;
+    margin-bottom: 0;
+  } */
+
+  /* .hero img {
+    height: 100%;
+    width: auto;
+    margin-inline: auto;
+  } */
+
+  /* .hero-content {
     --color-primary: var(--white);
 
     position: absolute;
     top: 50%;
     filter: drop-shadow(2px 4px 10px var(--black));
-  }
+  } */
 
-  .hero .btn-primary:is(:hover, :focus) { color: hsl(0, 0%, 12%); }
+  /* .hero .btn-primary:is(:hover, :focus) { color: hsl(0, 0%, 12%); } */
 
   .hero-social-list {
     display: block;
@@ -1318,17 +1394,6 @@ textarea.input-field {
     height: 2px;
     background: var(--color-secondary);
   }
-
-
-
-  /**
-   * STATS
-   */
-
-  .stats-list { grid-template-columns: repeat(3, 1fr); }
-
-  .stats-card { height: 100%; }
-
 
 
 
