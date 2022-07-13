@@ -471,19 +471,20 @@ main { overflow-x: hidden; }
 
 .blocks {
 	display: flex;
-	font-size: 140px;
+	font-size: 60px;
 	color: #8d785b;
 }
 
 .circle-shape {
-	position: absolute;
+  padding-top: 200px;
+	/* position: absolute; */
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
-	width: 470px;
-	height: 470px;
+	width: 310px;
+	height: 310px;
 	border: 4px solid hsl(24, 74%, 58%);
 	border-radius: 100%;
   position: center;
@@ -496,22 +497,24 @@ main { overflow-x: hidden; }
 	transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
+  opacity: 98%;
 	background: #a83e0c;
 	border-radius: 100%;
 }
 
 .circle-shape-3 {
 	position: absolute;
-	top: 30%;
-	left: 20%;
+	top: 47%;
+	left: 15%;
 	transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
-	width: 100px;
-	height: 100px;
+	width: 60px;
+	height: 60px;
 	background: #a83e0c;
+  opacity: 80%;
 	border-radius: 100%;
 	z-index: 2;
 }
@@ -531,7 +534,7 @@ main { overflow-x: hidden; }
 }
 
 .image {
-  max-height: 400px;
+  max-height: 270px;
   width: 100%;
   height: auto;
 	object-fit: cover;
@@ -925,7 +928,7 @@ main { overflow-x: hidden; }
   opacity: 1;
 }
 
-.contact-form {
+/* .contact-form {
   background: var(--bg-secondary);
   padding: 20px;
   border-radius: var(--radius-12);
@@ -978,7 +981,7 @@ textarea.input-field {
   width: 100%;
   background: var(--color-primary);
   color: var(--bg-primary);
-}
+} */
 
 
 
@@ -1096,6 +1099,88 @@ textarea.input-field {
   .container { max-width: 720px; }
 
   .section-title { max-width: 430px; }
+
+  /**
+   * HOME
+   */
+
+   .hero {
+    position: relative;
+    padding-top: 0;
+    height: 100vh;
+  }
+
+  .blocks {
+    display: flex;
+    font-size: 120px;
+    color: #8d785b;
+  }
+  
+  .circle-shape {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    border: 4px solid hsl(24, 74%, 58%);
+    border-radius: 100%;
+    position: center;
+  }
+  
+  .circle-shape-2 {
+    position: absolute;
+    top: 64%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    background: #a83e0c;
+    border-radius: 100%;
+  }
+  
+  .circle-shape-3 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: #a83e0c;
+    border-radius: 100%;
+    z-index: 2;
+  }
+  
+  .wrapper-img {
+    overflow: hidden;
+    position: absolute;
+    max-height: 650px;
+    width: auto;
+    position: center;
+  }
+  
+  .hero img {
+    height: 100%;
+    width: auto;
+    margin-inline: auto;
+  }
+  
+  .image {
+    max-height: 450px;
+    width: auto;
+    object-fit: cover;
+  }
+  
+  .box {
+    background: var(--bg-primary);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+  }
 
 
   /**
@@ -1230,7 +1315,7 @@ textarea.input-field {
    * HOME
    */
 
-  .hero {
+   .hero {
     position: relative;
     padding-top: 0;
     height: 100vh;
@@ -1243,12 +1328,13 @@ textarea.input-field {
   }
   
   .circle-shape {
-    position: absolute;
+    /* position: absolute;
+    padding-top: 200px; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 580px;
-    height: 580px;
+    width: 635px;
+    height: 635px;
     border: 4px solid hsl(24, 74%, 58%);
     border-radius: 100%;
     position: center;
@@ -1256,8 +1342,8 @@ textarea.input-field {
   
   .circle-shape-2 {
     position: absolute;
-    top: 64%;
-    left: 80%;
+    top: 72%;
+    left: 76%;
     transform: translate(-50%, -50%);
     width: 240px;
     height: 240px;
@@ -1267,11 +1353,11 @@ textarea.input-field {
   
   .circle-shape-3 {
     position: absolute;
-    top: 30%;
+    top: 43%;
     left: 20%;
     transform: translate(-50%, -50%);
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     background: #a83e0c;
     border-radius: 100%;
     z-index: 2;
@@ -1299,7 +1385,7 @@ textarea.input-field {
   
   .box {
     background: var(--bg-primary);
-    opacity: 1;
+    /* opacity: 1; */
     position: absolute;
     top: 0;
     bottom: 0;

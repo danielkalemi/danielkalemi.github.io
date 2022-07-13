@@ -53,6 +53,148 @@ navToggleBtn.addEventListener("click", function () {
 
 
 
+
+/**
+ * moving letters
+ */
+
+    // D
+    TweenMax.to(".block-1", 3.5, {
+      x: "-70%",
+      y: "-130%",
+      scale: "1.4",
+      bezier:{
+        type: "thru",
+        values:[
+            { left: "0%", top: "0%" }, 
+            { left: "100%", top: "50%" },
+            { left: "0%", top: "25%" }, 
+            { left: "100%", top: "100%" }
+         ],
+        autoRotate: true,
+      }, 
+      // repeat:-1, 
+      ease: Expo.easeInOut,
+    });
+
+    // A
+    TweenMax.to(".block-2", 3.5, {
+      x: "250%",
+      y: "-175%",
+      scale: "1.2",
+      bezier:{
+        type: "thru",
+        values:[
+            { left: "0%", top: "0%" }, 
+            { left: "100%", top: "50%" },
+            { left: "0%", top: "25%" }, 
+            { left: "100%", top: "100%" }
+         ],
+        autoRotate: true,
+      }, 
+      // repeat:-1, 
+      ease: Expo.easeInOut,
+    });
+
+    // N
+    TweenMax.to(".block-3", 3.5, {
+      x: "335%",
+      y: "-38%",
+      scale: "1.2",
+      bezier:{
+        type: "thru",
+        values:[
+            { left: "0%", top: "0%" }, 
+            { left: "100%", top: "50%" },
+            { left: "0%", top: "25%" }, 
+            { left: "100%", top: "100%" }
+         ],
+        autoRotate: true,
+      }, 
+      // repeat:-1, 
+      ease: Expo.easeInOut,
+    });
+
+    // I
+    TweenMax.to(".block-4", 3.5, {
+      x: "110%",
+      y: "195%",
+      scale: "1.1",
+      bezier:{
+        type: "thru",
+        values:[
+            { left: "0%", top: "0%" }, 
+            { left: "100%", top: "50%" },
+            { left: "0%", top: "25%" }, 
+            { left: "100%", top: "100%" }
+         ],
+        autoRotate: true,
+      }, 
+      // repeat:-1, 
+      ease: Expo.easeInOut,
+    });
+
+    // E
+    TweenMax.to(".block-5", 3.5, {
+      x: "-370%",
+      y: "175%",
+      scale: "1.1",
+      bezier:{
+        type: "thru",
+        values:[
+            { left: "0%", top: "0%" }, 
+            { left: "100%", top: "50%" },
+            { left: "0%", top: "25%" }, 
+            { left: "100%", top: "100%" }
+         ],
+        autoRotate: true,
+      }, 
+      // repeat:-1, 
+      ease: Expo.easeInOut,
+    });
+
+    // L
+    TweenMax.to(".block-6", 3.5, {
+      x: "-680%",
+      y: "70%",
+      scale: "1.2",
+      bezier:{
+        type: "thru",
+        values:[
+            { left: "0%", top: "0%" }, 
+            { left: "100%", top: "50%" },
+            { left: "0%", top: "25%" }, 
+            { left: "100%", top: "100%" }
+         ],
+        autoRotate: true,
+      }, 
+      // repeat:-1, 
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.to(".box", 3.9, {
+      y: "100%",
+      ease: Expo.easeInOut,
+    });
+
+    TweenMax.from(".circle-shape", 3.9, {
+      scale: "0",
+      ease: Expo.easeInOut,
+    });
+    TweenMax.from(".circle-shape-2", 3.9, {
+      scale: "0",
+      ease: Expo.easeInOut,
+    });
+    TweenMax.from(".circle-shape-3", 3.9, {
+      x: "-685%",
+      y: "10%",
+      scale: "0",
+      ease: Expo.easeInOut,
+    });
+
+
+
+
 /**
  * skills toggle
  */
