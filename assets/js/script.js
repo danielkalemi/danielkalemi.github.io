@@ -59,7 +59,7 @@ navToggleBtn.addEventListener("click", function () {
  */
 
     // D
-    TweenMax.to(".block-1", 3.5, {
+    TweenMax.to(".block-1", 2.5, {
       x: "-70%",
       y: "-130%",
       scale: "1.4",
@@ -78,7 +78,7 @@ navToggleBtn.addEventListener("click", function () {
     });
 
     // A
-    TweenMax.to(".block-2", 3.5, {
+    TweenMax.to(".block-2", 2.5, {
       x: "250%",
       y: "-175%",
       scale: "1.2",
@@ -97,7 +97,7 @@ navToggleBtn.addEventListener("click", function () {
     });
 
     // N
-    TweenMax.to(".block-3", 3.5, {
+    TweenMax.to(".block-3", 2.5, {
       x: "335%",
       y: "-38%",
       scale: "1.2",
@@ -116,7 +116,7 @@ navToggleBtn.addEventListener("click", function () {
     });
 
     // I
-    TweenMax.to(".block-4", 3.5, {
+    TweenMax.to(".block-4", 2.5, {
       x: "110%",
       y: "195%",
       scale: "1.1",
@@ -135,7 +135,7 @@ navToggleBtn.addEventListener("click", function () {
     });
 
     // E
-    TweenMax.to(".block-5", 3.5, {
+    TweenMax.to(".block-5", 2.5, {
       x: "-370%",
       y: "175%",
       scale: "1.1",
@@ -154,7 +154,7 @@ navToggleBtn.addEventListener("click", function () {
     });
 
     // L
-    TweenMax.to(".block-6", 3.5, {
+    TweenMax.to(".block-6", 2.5, {
       x: "-680%",
       y: "70%",
       scale: "1.2",
@@ -172,20 +172,20 @@ navToggleBtn.addEventListener("click", function () {
       ease: Expo.easeInOut,
     });
 
-    TweenMax.to(".box", 3.9, {
+    TweenMax.to(".box", 2.9, {
       y: "100%",
       ease: Expo.easeInOut,
     });
 
-    TweenMax.from(".circle-shape", 3.9, {
+    TweenMax.from(".circle-shape", 2.9, {
       scale: "0",
       ease: Expo.easeInOut,
     });
-    TweenMax.from(".circle-shape-2", 3.9, {
+    TweenMax.from(".circle-shape-2", 2.9, {
       scale: "0",
       ease: Expo.easeInOut,
     });
-    TweenMax.from(".circle-shape-3", 3.9, {
+    TweenMax.from(".circle-shape-3", 2.9, {
       x: "-685%",
       y: "10%",
       scale: "0",
