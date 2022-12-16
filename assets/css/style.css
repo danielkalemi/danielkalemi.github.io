@@ -630,7 +630,9 @@ main { overflow-x: hidden; }
  * #SKILLS
 \*-----------------------------------*/
 
-.skills { padding-block: var(--section-padding); cursor: url("stars.png"), auto;}
+.skills { padding-block: var(--section-padding); 
+  /* cursor: url("stars.png"), auto; */
+}
 
 .skills-content { margin-bottom: 50px; }
 
@@ -704,7 +706,7 @@ main { overflow-x: hidden; }
   place-items: center;
   border-radius: var(--radius-12);
   box-shadow: var(--shadow-1);
-  cursor: url("stars.png"), auto;
+  /* cursor: url("stars.png"), auto; */
 }
 
 .skill-card:hover .tooltip {
