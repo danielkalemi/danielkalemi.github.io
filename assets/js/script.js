@@ -51,7 +51,19 @@ navToggleBtn.addEventListener("click", function () {
 
 });
 
+// select the navbar items
+const navbarItems = document.querySelectorAll("[data-navbar] li");
 
+// loop through the navbar items
+navbarItems.forEach((item) => {
+  // add a click event listener to each item
+  item.addEventListener("click", () => {
+    // toggle the active class of the nav toggle button, the navbar, and the document body
+    elemToggleFunc(navToggleBtn);
+    elemToggleFunc(navbar);
+    elemToggleFunc(document.body);
+  });
+});
 
 
 /**
