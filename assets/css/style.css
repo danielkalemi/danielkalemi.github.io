@@ -471,13 +471,13 @@ main { overflow-x: hidden; }
 
 .blocks {
 	display: flex;
-	font-size: 60px;
+	font-size: 15vw;
 	color: #8d785b;
 }
 
 .circle-shape {
 	position: absolute;
-	top: 56%;
+  top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 75vw;
